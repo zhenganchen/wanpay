@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+    <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"
+        name="viewport">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="yes" name="apple-touch-fullscreen">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="320" name="MobileOptimized">
+    <meta content="telephone=no" name="format-detection">
+    <link rel="stylesheet" href="js/not3danpin.css">
+    <title>瑞和宝手机POS机</title>
+    <meta name="keywords" content="瑞和宝手机POS机">
+    <meta name="description" content="瑞和宝手机POS机（0.55%+3元/笔秒到） 央行支付牌照终生售后保障">
+    <script type="text/javascript" src="images/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="js/time.lesser.js"></script>
+    <script type="text/javascript" src="js/demo.js"></script>
+    <script type="text/javascript" src="js/notorder.js"></script>
+    <style>
+        body
+        {
+            background: #B3B3B3;
+        }
+        #page
+        {
+            max-width: 1000px;
+        }
+        #shenhe
+        {
+            display: none;
+        }
+        header
+        {
+            background: #DD9222;
+        }
+        .neworder .chanpin label
+        {
+            font-size: 14px;
+        }
+        #gotop
+        {
+            display: none;
+            width: 55px;
+            height: 55px;
+            position: fixed;
+            right: 50px;
+            bottom: 50px;
+            background: url(images/backtop2013.png) no-repeat -70px 0px;
+        }
+    </style>
+</head>
+<body>
+    <div id="page">
+        <!--HeiYanQuan Begin-->
+        <div id="heiyanquan">
+            <header>
+      <h1>瑞和宝手机POS机（0.55%+3元/笔秒到） 央行支付牌照终生售后保障</h1>
+   </header>
+            <div class="banner">
+                <p>
+                    <img src="images/100.jpg" />
+                    <img src="images/001a.jpg">
+                    <img src="images/001b.jpg">
+                    <img src="images/002a.jpg">
+                    <img src="images/002b.jpg">
+                    <img src="images/002c.jpg">
+                    <img src="images/002d.jpg">
+                    <img src="images/002e.jpg">
+                    <img src="images/006a.jpg">
+                    <img src="images/006b.jpg">
+                    <img src="images/006c.jpg">
+                    <img src="images/006d.jpg">
+                    <img src="images/006e.jpg">
+                    <img src="images/011.jpg">
+                    <img src="images/012.jpg">
+                    <img src="images/013.jpg">
+                    <img src="images/014.jpg">
+                    <img src="images/015a.jpg">
+                    <img src="images/015b.jpg">
+                    <img src="images/015c.jpg">
+                    <img src="images/018a.jpg">
+                    <img src="images/018b.jpg">
+                    <img src="images/018c.jpg">
+                    <img src="images/018a.jpg">
+                    <img src="images/018b.jpg">
+                    <img src="images/018c.jpg">
+                    <img src="images/023a.jpg">
+                    <img src="images/023b.jpg">
+                    <img src="images/023c.jpg">
+                </p>
+            </div>
+        </div>
+        <footer>
+	<p><center> <img src="images/foot.png"><br>版权所有：福州博兹实业有限公司  地址：福建省福州市鼓楼区东街口东方百货西塔楼17层05区</center></p>
+   </footer>
+    </div>
+    <div id="gotop">
+    </div>
+    <script type="text/javascript">
+        function goTop() {
+            $(window).scroll(function (e) {
+                //若滚动条离顶部大于100元素
+                if ($(window).scrollTop() > 100)
+                    $("#gotop").fadeIn(1000); //以1秒的间隔渐显id=gotop的元素
+                else
+                    $("#gotop").fadeOut(1000); //以1秒的间隔渐隐id=gotop的元素
+            });
+        };
+        $(function () {
+            //点击回到顶部的元素
+            $("#gotop").click(function (e) {
+                //以1秒的间隔返回顶部
+                $('body,html').animate({ scrollTop: 0 }, 1000);
+            });
+            $("#gotop").mouseover(function (e) {
+                $(this).css("background", "url(images/backtop2013.png) no-repeat 0px 0px");
+            });
+            $("#gotop").mouseout(function (e) {
+                $(this).css("background", "url(images/backtop2013.png) no-repeat -70px 0px");
+            });
+            goTop(); //实现回到顶部元素的渐显与渐隐
+        });
+    </script>
+</body>
+</html>
